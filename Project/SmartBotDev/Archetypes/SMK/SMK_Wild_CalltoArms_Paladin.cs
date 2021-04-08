@@ -46,7 +46,7 @@ namespace SmartBotAPI.Plugins.API
 
         public string ArchetypeName()
         {
-            return "[狂野][贫瘠之地]号角骑 1.0";
+            return "SMK_Wild_CalltoArms_Paladin";
         }
     }
 }
