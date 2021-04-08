@@ -16,7 +16,7 @@ using SmartBot.Plugins.API;
 
 namespace SmartBotAPI.Plugins.API
 {
-    class SMK_Wild_CalltoArmsPaladin : Archetype
+    class SMK_Wild_CalltoArms_Paladin : Archetype
     {
         public List<Card.Cards> ArchetypeCardSet()
         {
