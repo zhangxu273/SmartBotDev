@@ -13,6 +13,7 @@ using System.Collections.Generic;
 using System.Linq;
 using SmartBot.Database;
 using SmartBot.Plugins.API;
+using SmartBotDevKit;
 
 namespace SmartBotAPI.Plugins.API
 {
@@ -22,25 +23,25 @@ namespace SmartBotAPI.Plugins.API
         {
             return new List<Card.Cards>()
             {
-                Card.Cards.EX1_136,         //救赎 Redemption
-                Card.Cards.DAL_570,         //永不屈服 Never Surrender!
-                Card.Cards.DMF_236,         //古神在上 Oh My Yogg!
-                Card.Cards.BAR_550,         //迅疾救兵 Galloping Savior
-                Card.Cards.EX1_130,         //崇高牺牲 Noble Sacrifice
-                Card.Cards.FP1_020,         //复仇 Avenge
-                Card.Cards.BAR_880,         //定罪（等级1） Conviction (Rank 1)
-                Card.Cards.ICC_038,         //正义保护者 Righteous Protector
-                Card.Cards.BT_292,          //阿达尔之手 Hand of A'dal
-                Card.Cards.FP1_017,         //尼鲁巴蛛网领主 Nerub'ar Weblord
-                Card.Cards.GVG_058,         //护盾机器人 Shielded Minibot
-                Card.Cards.YOP_031,         //螃蟹骑士 Crabrider
-                Card.Cards.BAR_875,         //逝者之剑 Sword of the Fallen
-                Card.Cards.EX1_349,         //神恩术 Divine Favor
-                Card.Cards.DAL_573,         //指挥官蕾撒 Commander Rhyssa
-                Card.Cards.BAR_890,         //十字路口大嘴巴 Crossroads Gossiper
-                Card.Cards.LOOT_093,        //战斗号角 Call to Arms
-                Card.Cards.CS2_092,         //王者祝福 Blessing of Kings
-                Card.Cards.BAR_902,         //凯瑞尔·罗姆 Cariel Roame
+               (Card.Cards)CardHelper.Cards.救赎_EX1_136,
+               (Card.Cards)CardHelper.Cards.永不屈服_DAL_570,
+               (Card.Cards)CardHelper.Cards.古神在上_DMF_236,
+               (Card.Cards)CardHelper.Cards.迅疾救兵_BAR_550,
+               (Card.Cards)CardHelper.Cards.崇高牺牲_EX1_130,
+               (Card.Cards)CardHelper.Cards.复仇_FP1_020,
+               (Card.Cards)CardHelper.Cards.定罪_BAR_880,
+               (Card.Cards)CardHelper.Cards.正义保护者_ICC_038,
+               (Card.Cards)CardHelper.Cards.阿达尔之手_BT_292,
+               (Card.Cards)CardHelper.Cards.尼鲁巴蛛网领主_FP1_017,
+               (Card.Cards)CardHelper.Cards.护盾机器人_GVG_058,
+               (Card.Cards)CardHelper.Cards.螃蟹骑士_YOP_031,
+               (Card.Cards)CardHelper.Cards.逝者之剑_BAR_875,
+               (Card.Cards)CardHelper.Cards.神恩术_EX1_349,
+               (Card.Cards)CardHelper.Cards.指挥官蕾撒_DAL_573,
+               (Card.Cards)CardHelper.Cards.十字路口大嘴巴_BAR_890,
+               (Card.Cards)CardHelper.Cards.战斗号角_LOOT_093,
+               (Card.Cards)CardHelper.Cards.王者祝福_CS2_092,
+               (Card.Cards)CardHelper.Cards.凯瑞尔罗姆_BAR_902,
             };
         }
 

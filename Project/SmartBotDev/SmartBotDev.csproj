@@ -33,14 +33,114 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="MulliganProfiles\Files\SMK_Aggro_Elemental_Shaman.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Aggro_Overload_Shaman.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Aggro_Warrior.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Arena.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Combo_Priest.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Control_Warrior.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Cube_Warlock.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Deathrattle_Hunter.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Dragon_Hunter.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Elemental_Shaman.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Embiggen_Druid.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Even_Paladin.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Even_Shaman.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Even_Warlock.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Evolve_Shaman.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Face_Hunter.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Frost_SA_Dragon_Hunter.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Galakrond_Shaman.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Galakrond_Warrior.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Galakrond_Zoo_Warlock.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Highlander_Paladin.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Mech_Hunter.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Midrange_Hunter.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Murloc_Mage.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Murloc_Paladin.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Murloc_Shaman.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Odd_Paladin.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Odd_Rogue.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Pirate_Warrior.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Quest_Hunter.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Secret_Highlander_Hunter.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Secret_Hunter.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Secret_Paladin.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Spell_Hunter.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Spiteful_Druid.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Spiteful_Priest.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Taunt_Druid.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Taunt_Warrior.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Tempo_DemonHunter.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Tempo_Mage.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Tempo_Rogue.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Token_Druid.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Wild_CalltoArms_Paladin.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Wild_Deathrattle_Hunter.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Wild_EggPaladin.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Wild_Even_Shaman.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Wild_GiantLock.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Wild_Mech_Paladin.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Wild_Murloc_Paladin.ini" />
+    <None Include="MulliganProfiles\Files\SMK_Zoo_Warlock.ini" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Archetypes\SMK_Wild_CalltoArmsPaladin.cs" />
+    <Compile Include="Archetypes\SMK\SMK_AggroOverloadShaman.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Aggro_Warrior.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Combo_Priest.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Control_Warrior.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Cube_Warlock.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Deathrattle_Hunter.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Dragon_Hunter.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Elemental_Shaman.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Embiggen_Druid.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Even_Paladin.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Even_Shaman.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Even_Warlock.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Evolve_Shaman.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Face_Hunter.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Galakrond_Shaman.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Galakrond_Warrior.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Galakrond_Zoo_Warlock.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Highlander_Paladin.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Mecha%27thun_Warlock.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Mech_Hunter.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Midrange_Hunter.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Murloc_Mage.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Murloc_Paladin.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Murloc_Shaman.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Odd_Hunter.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Odd_Paladin.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Odd_Rogue.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Pirate_Warrior.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Quest_Hunter.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Secret_Highlander_Hunter.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Secret_Hunter.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Secret_Paladin.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Spell_Hunter.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Spiteful_Druid.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Spiteful_Priest.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Taunt_Druid.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Tempo_DemonHunter.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Tempo_Mage.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Tempo_Rogue.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Token_Druid.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Weapon_Rogue.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Wild_CalltoArms_Paladin.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Wild_Deathrattle_Hunter.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Wild_EggPaladin.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Wild_Even_Shaman.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Wild_GiantLock.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Wild_Mech_Paladin.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Wild_Murloc_Paladin.cs" />
+    <Compile Include="Archetypes\SMK\SMK_Zoo_Warlock.cs" />
+    <Compile Include="MulliganProfiles\Soviet_Mulligan_Kit.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="SBAPI">
-      <HintPath>..\..\..\..\Desktop\sb\SBAPI.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\SmartBotDevKit\SmartBotDevKit.csproj">
+      <Project>{0201f1b0-bef1-4119-84fe-79a3d2e254d0}</Project>
+      <Name>SmartBotDevKit</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
